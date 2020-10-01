@@ -1,7 +1,7 @@
 ---
 date: 2013-11-16T04:52:32Z
 description: "Hugo 0.9 is the most significant update to Hugo ever!  It contains contributions from dozens of contributors and represents hundreds of features, fixes and improvements."
-title: "Hugo 0.9"
+title: "Release 0.9"
 categories: ["Releases"]
 ---
 

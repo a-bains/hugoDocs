@@ -1,5 +1,5 @@
 ---
-title: Hugo Documentation
+title: Samsung Knox Support - Home
 linktitle: Hugo
 description: Hugo is the world's fastest static website engine. It's written in Go (aka Golang) and developed by bep, spf13 and friends.
 date: 2017-02-01
@@ -16,6 +16,10 @@ toc: false
 layout: documentation-home
 ---
 
-Hugo is the **world's fastest static website engine.** It's written in Go (aka Golang) and developed by [bep](https://github.com/bep), [spf13](https://github.com/spf13) and [friends](https://github.com/gohugoio/hugo/graphs/contributors).
+This is the home page for the Samsung Knox Support page.
 
 Below you will find some of the most common and helpful pages from our documentation.
+
+#### How do articles populate on this page?
+
+If you want an article to be included here, you need to give it a _frontmatter_ value for `categories` equal to `fundamentals`. Once done, those fundamental articles will show here!

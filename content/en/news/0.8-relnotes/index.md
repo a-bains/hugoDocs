@@ -1,7 +1,7 @@
 ---
 date: 2013-08-03T15:26:04Z
 description: "Hugo 0.8 added support for pretty URLs, support for TOML and YAML, better Windows compatibility, and more!"
-title: "Hugo 0.8"
+title: "Release 0.8"
 categories: ["Releases"]
 ---
 

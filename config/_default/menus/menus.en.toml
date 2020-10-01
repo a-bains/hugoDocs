@@ -1,90 +1,106 @@
 [[docs]]
-  name = "About Hugo"
+  name = "Knox Overview"
   weight = 1
-  identifier = "about"
-  url = "/about/"
+  identifier = "overview"
+  url = "/overview/"
 
 [[docs]]
   name = "Getting Started"
   weight = 5
   identifier = "getting-started"
   url = "/getting-started/"
+  post = "break" # Adds a line underneath the menu item
 
-[[docs]]
-  name = "Hugo Modules"
-  weight = 15
-  identifier = "modules"
-  post = "break"
-  url = "/hugo-modules/"
+#[[docs]]
+#  name = "Hugo Modules"
+#  weight = 15
+#  identifier = "modules"
+#  post = "break"
+#  url = "/hugo-modules/"
 
 # Core Menus
 
+#[[docs]]
+#  name = "Content Management"
+#  weight = 20
+#  identifier = "content-management"
+#  post = "expanded"
+#  url = "/content-management/"
+
 [[docs]]
-  name = "Content Management"
+  name = "Knox Mobile Enrollment"
   weight = 20
-  identifier = "content-management"
+  identifier = "knox-mobile-enrollment"
   post = "expanded"
-  url = "/content-management/"
+  url = "/knox-mobile-enrollment/"
 
 [[docs]]
-  name = "Templates"
-  weight = 25
-  identifier = "templates"
+  name = "Installation"
+  weight = 20
+  identifier = "installation"
+  parent = "knox-mobile-enrollment"
+  url = "/knox-mobile-enrollment/installation/"
 
-  url = "/templates/"
+# [[docs]]
+#   name = "Templates"
+#   weight = 25
+#   identifier = "templates"
+#   url = "/templates/"
 
-[[docs]]
-  name = "Functions"
-  weight = 30
-  identifier = "functions"
-  url = "/functions/"
+# [[docs]]
+#   name = "Functions"
+#   weight = 30
+#   identifier = "functions"
+#   url = "/functions/"
 
-[[docs]]
-  name = "Variables"
-  weight = 35
-  identifier = "variables"
-  url = "/variables/"
-[[docs]]
-  name = "Hugo Pipes"
-  weight = 36
-  identifier = "pipes"
-  url = "/hugo-pipes/"
-[[docs]]
-  name = "CLI"
-  weight = 40
-  post = "break"
-  identifier = "commands"
-  url = "/commands/"
+# [[docs]]
+#   name = "Variables"
+#   weight = 35
+#   identifier = "variables"
+#   url = "/variables/"
+
+# [[docs]]
+#   name = "Hugo Pipes"
+#   weight = 36
+#   identifier = "pipes"
+#   url = "/hugo-pipes/"
+
+# [[docs]]
+#   name = "CLI"
+#   weight = 40
+#   post = "break"
+#   identifier = "commands"
+#   url = "/commands/"
 
 
 
 # LOW LEVEL ITEMS
 
-
-[[docs]]
-  name = "Troubleshooting"
-  weight = 60
-  identifier = "troubleshooting"
-  url = "/troubleshooting/"
-
-[[docs]]
-  name = "Tools"
-  weight = 70
-  identifier = "tools"
-  url = "/tools/"
-
-[[docs]]
-  name = "Hosting & Deployment"
-  weight = 80
-  identifier = "hosting-and-deployment"
-  url = "/hosting-and-deployment/"
-
-[[docs]]
-  name = "Contribute"
-  weight = 100
-  post = "break"
-  identifier = "contribute"
-  url = "/contribute/"
+#
+# [[docs]]
+#   name = "Troubleshooting"
+#   weight = 60
+#   identifier = "troubleshooting"
+#   url = "/troubleshooting/"
+#
+# [[docs]]
+#   name = "Tools"
+#   weight = 70
+#   identifier = "tools"
+#   url = "/tools/"
+#
+# [[docs]]
+#   name = "Hosting & Deployment"
+#   weight = 80
+#   identifier = "hosting-and-deployment"
+#   url = "/hosting-and-deployment/"
+#
+# [[docs]]
+#   name = "Contribute"
+#   weight = 100
+#   post = "break"
+#   identifier = "contribute"
+#   url = "/contribute/"
 
 #[[docs]]
 #  name = "Tags"
@@ -114,41 +130,35 @@
 
 [[global]]
     name = "News"
-    weight = 1
+    weight = 5
     identifier = "news"
     url = "/news/"
 
   [[global]]
     name = "Docs"
-    weight = 5
+    weight = 1
     identifier = "docs"
     url = "/documentation/"
 
-  [[global]]
-    name = "Themes"
-    weight = 10
-    identifier = "themes"
-    url = "https://themes.gohugo.io/"
-
     [[global]]
       name = "Showcase"
-      weight = 20
+      weight = 2
       identifier = "showcase"
       url = "/showcase/"
 
   # Anything with a weight > 100 gets an external icon
   [[global]]
-    name = "Community"
-    weight = 150
+    name = "Developer Forum"
+    weight = 3
     icon = true
-    identifier = "community"
+    identifier = "forum"
     post = "external"
-    url = "https://discourse.gohugo.io/"
+    url = "https://developer.samsungknox.com/forum"
 
 
   [[global]]
-    name = "GitHub"
-    weight = 200
-    identifier = "github"
+    name = "For Partners"
+    weight = 4
+    identifier = "partners"
     post = "external"
-    url = "https://github.com/gohugoio/hugo"
+    url = "https://partner.samsungknox.com/"

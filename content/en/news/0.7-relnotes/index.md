@@ -1,7 +1,7 @@
 ---
 date: 2013-07-05T04:22:00Z
 description: "The first public release of Hugo."
-title: "Hugo 0.7"
+title: "Release 0.7"
 categories: ["Releases"]
 ---
 

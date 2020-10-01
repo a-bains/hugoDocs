@@ -5,10 +5,11 @@ enableEmoji = true
 # Set the unicode character used for the "return" link in page footnotes.
 footnotereturnlinkcontents = "↩"
 languageCode = "en-us"
-title = "Hugo"
+title = "Samsung Knox Support"
 
 
-googleAnalytics = "UA-7131036-4"
+googleAnalytics = "" # "UA-7131036-4"
+disableLanguages = ["zh"]
 
 pluralizeListTitles = false
 

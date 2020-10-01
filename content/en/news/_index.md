@@ -1,4 +1,4 @@
 ---
-title: "Hugo News"
+title: "Techpubs - Release notes"
 aliases: [/release-notes/]
 ---
